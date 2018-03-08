@@ -20,7 +20,7 @@ func DbInit() {
 //首次运行的时候，将自动安装数据库等内容。
 func InstallDatabase() {
 
-	timer := time.NewTimer(time.Second * 2)
+	timer := time.NewTimer(time.Second * 1)
 	<-timer.C
 
 	db, err := gorm.Open("mysql", CONFIG.MysqlUrl)

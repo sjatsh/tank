@@ -151,7 +151,7 @@ func run() {
 	setupMetrics()
 	runServer()
 	cleanup()
-	//os.Exit(0)
+	os.Exit(0)
 }
 
 func registerStores() {
