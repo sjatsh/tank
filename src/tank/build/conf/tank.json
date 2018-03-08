@@ -1,0 +1,14 @@
+{
+  "ServerPort": 6010,
+  "LogToConsole": false,
+  "LogPath": "/data/logs/tank",
+  "MatterPath": "/data/matter",
+  "MysqlPort": 4000,
+  "MysqlHost": "127.0.0.1",
+  "MysqlSchema": "ime",
+  "MysqlUsername": "ime",
+  "MysqlPassword": "ime",
+  "AdminUsername": "admin",
+  "AdminEmail": "",
+  "AdminPassword": ""
+}
